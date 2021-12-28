@@ -4,7 +4,7 @@ metadata:
   name: test-app-service
 spec:
   selector:
-    app: myapp
+    app: demo-go-app
   ports:
   - port: 8080
     protocol: TCP
