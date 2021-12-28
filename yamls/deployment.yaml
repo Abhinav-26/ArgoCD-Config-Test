@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: test-app
-        image: alex43/go-demo-app:v1.0
+        image: alex43/go-demo-app:v2.0
         ports:
         - containerPort: 8080
