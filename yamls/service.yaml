@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: test-app-service
+  name: go-app-service
 spec:
   selector:
     app: demo-go-app

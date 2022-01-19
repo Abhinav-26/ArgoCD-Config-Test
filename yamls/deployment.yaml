@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: test-app
+  name: go-app
 spec:
   selector:
     matchLabels:
@@ -13,7 +13,7 @@ spec:
         app: demo-go-app
     spec:
       containers:
-      - name: test-app
-        image: alex43/go-demo-app:v2.0
+      - name: go-app-container
+        image: alex43/go-demo-app:v1.0
         ports:
         - containerPort: 8080
